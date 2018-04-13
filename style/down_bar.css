@@ -1,7 +1,7 @@
 .down_bar {
     margin-top: 1px;
     display: flex;
-    background-color: dimgray;
+    background-color: #f1f1f1;
 }
 
 .down_bar > div {

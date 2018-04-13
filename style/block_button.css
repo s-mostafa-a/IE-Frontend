@@ -1,7 +1,8 @@
 .button_block {
     margin-top: 1px;
     display: flex;
-    background-color: dimgray;
+    background-color: #f1f1f1;
+
 }
 
 .button_block > div {
