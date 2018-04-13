@@ -48,7 +48,15 @@
     width: 200px;
     margin: 0 auto;
 }
-
+.news_input{
+    direction: rtl;
+    border-radius: 25px;
+    border: 1px solid dimgray;
+    background-color: #e6e6ff;
+    height: 32px;
+    width: 200px;
+    margin: 0 auto;
+}
 .contact_us {
     border-radius: 5px;
     padding: 20px;
@@ -132,7 +140,9 @@
     z-index: 99;
 }
 
-
+.news{
+    background-color: #3232ff;
+}
 
 
 
