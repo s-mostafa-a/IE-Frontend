@@ -90,7 +90,7 @@
     background-color: dodgerblue;
 }
 
-.contact_icon {
+.about_icon {
     border-radius: 3px;
     border: 1px solid dodgerblue;
     margin-top: 3.5%;
@@ -106,28 +106,33 @@
     transition: background-color 0.4s ease;
 }
 
-.contact_icon > img {
+.about_icon > img {
     width: 60%;
     height: auto;
 }
 
-.contact_icon:hover {
+.about_icon:hover {
     -webkit-text-fill-color: rgba(255, 255, 255, 0.8);
     background-color: dodgerblue;
 }
 
-.contact_icon:hover .contact_icon_image_front {
+.about_icon:hover .about_image_front {
     display: none;
 }
 
-.contact_icon:hover .contact_icon_image_back {
+.about_icon:hover .about_image_back {
     display: inline;
 }
 
-.contact_icon_image_back {
+.about_image_back {
     display: none;
     position: relative;
     top: 0;
     left: 0;
     z-index: 99;
 }
+
+
+
+
+
