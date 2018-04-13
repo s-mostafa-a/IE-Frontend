@@ -1,0 +1,12 @@
+@import "navbar.css";
+@import "block_button.css";
+@import "down_bar.css";
+
+@font-face {
+    font-family: "my_iran_sans";
+    src:url("../fonts/IRAN-sans.ttf");
+}
+*{
+    font-family: "my_iran_sans";
+
+}
