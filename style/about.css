@@ -4,55 +4,65 @@
 
 @font-face {
     font-family: "my_iran_sans";
-    src:url("../fonts/IRAN-sans.ttf");
+    src: url("../fonts/IRAN-sans.ttf");
 }
-*{
+
+* {
     font-family: "my_iran_sans";
 
 }
-.center{
+
+.center {
     display: flex;
     background-color: #f1f1f1;
 }
-.our_signs{
+
+.our_signs {
     display: flex;
     background-color: #f1f1f1;
 }
-.map{
+
+.map {
     display: flex;
     background-color: #f1f1f1;
 }
+
 .caution {
     direction: rtl;
     display: flex;
     background-color: #8b3d2f;
 }
+
 .contact_form {
     direction: rtl;
     display: flex;
     background-color: #f1f1f1;
 }
-.form_input_box{
+
+.form_input_box {
     direction: ltr;
     border-radius: 25px;
     border: 1px solid dimgray;
     background-color: #e6e6ff;
     height: 32px;
     width: 200px;
-    margin:0 auto;
+    margin: 0 auto;
 }
-.contact_us{
+
+.contact_us {
     border-radius: 5px;
     padding: 20px;
     border: 1px solid #BFBFBF;
     box-shadow: 5px 5px 5px 5px #aaaaaa;
 }
-.contact_form > div{
+
+.contact_form > div {
     color: dodgerblue;
     width: 33%;
     height: 42px;
 }
-.form_input{
+
+.form_input {
     padding-top: 15px;
     padding-bottom: 15px;
     border-radius: 25px;
@@ -60,9 +70,10 @@
     background-color: #e6e6ff;
     height: 32px;
     width: 200px;
-    margin:0 auto;
+    margin: 0 auto;
 }
-.send{
+
+.send {
     font-size: 10px;
     border: 1px solid dodgerblue;
     border-radius: 25px;
@@ -73,15 +84,13 @@
     transition: background-color 0.4s ease;
     background-color: rgba(255, 255, 255, 0.8);
 }
-.send:hover{
+
+.send:hover {
     -webkit-text-fill-color: rgba(255, 255, 255, 0.8);
     background-color: dodgerblue;
 }
 
-
-
-
-.about_icon{
+.contact_icon {
     border-radius: 3px;
     border: 1px solid dodgerblue;
     margin-top: 3.5%;
@@ -96,21 +105,26 @@
     -webkit-transition: background-color 0.4s ease;
     transition: background-color 0.4s ease;
 }
-.about_icon > img{
+
+.contact_icon > img {
     width: 60%;
     height: auto;
 }
-.about_icon:hover{
+
+.contact_icon:hover {
     -webkit-text-fill-color: rgba(255, 255, 255, 0.8);
     background-color: dodgerblue;
 }
-.about_icon:hover .about_icon_image_front{
+
+.contact_icon:hover .contact_icon_image_front {
     display: none;
 }
-.about_icon:hover .about_icon_image_back{
+
+.contact_icon:hover .contact_icon_image_back {
     display: inline;
 }
-.about_icon_image_back{
+
+.contact_icon_image_back {
     display: none;
     position: relative;
     top: 0;
