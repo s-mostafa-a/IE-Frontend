@@ -15,7 +15,6 @@
     margin-top: 1px;
     height: 42px;
     display: flex;
-    background-color: dimgray;
 }
 
 .nav_bar_down > div {
@@ -78,17 +77,18 @@
     background-color: rgba(70, 70, 70, 0.8);
 }
 .nav_icon{
-    background-color: rgba(150, 150, 150, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
     font-size: 15px;
     height: 100%;
     width: 100%;
     text-align: center;
     border: 0;
-    color: #fff;
+    color: dimgray;
     text-rendering: auto;
     -webkit-transition: background-color 0.4s ease;
     transition: background-color 0.4s ease;
 }
 .nav_icon:hover {
     background-color: rgba(70, 70, 70, 0.8);
+    color: white;
 }
