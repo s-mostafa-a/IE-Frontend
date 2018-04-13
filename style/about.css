@@ -77,3 +77,43 @@
     -webkit-text-fill-color: rgba(255, 255, 255, 0.8);
     background-color: dodgerblue;
 }
+
+
+
+
+.about_icon{
+    border-radius: 3px;
+    border: 1px solid lightgray;
+    margin-top: 3.5%;
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: dodgerblue;
+    font-size: 10px;
+    text-rendering: auto;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-transition: background-color 0.4s ease;
+    transition: background-color 0.4s ease;
+}
+.about_icon > img{
+    width: 60%;
+    height: auto;
+}
+.about_icon:hover{
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.8);
+    background-color: dodgerblue;
+}
+.about_icon:hover .about_icon_image_front{
+    display: none;
+}
+.about_icon:hover .about_icon_image_back{
+    display: inline;
+}
+.about_icon_image_back{
+    display: none;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
