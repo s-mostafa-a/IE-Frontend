@@ -27,3 +27,53 @@
     display: flex;
     background-color: #8b3d2f;
 }
+.contact_form {
+    direction: rtl;
+    display: flex;
+    background-color: #f1f1f1;
+}
+.form_input_box{
+    direction: ltr;
+    border-radius: 25px;
+    border: 1px solid dimgray;
+    background-color: #e6e6ff;
+    height: 32px;
+    width: 200px;
+    margin:0 auto;
+}
+.contact_us{
+    border-radius: 5px;
+    padding: 20px;
+    border: 1px solid #BFBFBF;
+    box-shadow: 5px 5px 5px 5px #aaaaaa;
+}
+.contact_form > div{
+    color: dodgerblue;
+    width: 33%;
+    height: 42px;
+}
+.form_input{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 25px;
+    border: 1px solid dimgray;
+    background-color: #e6e6ff;
+    height: 32px;
+    width: 200px;
+    margin:0 auto;
+}
+.send{
+    font-size: 10px;
+    border: 1px solid dodgerblue;
+    border-radius: 25px;
+    height: 32px;
+    width: 30%;
+    color: dodgerblue;
+    -webkit-transition: background-color 0.4s ease;
+    transition: background-color 0.4s ease;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.send:hover{
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.8);
+    background-color: dodgerblue;
+}
