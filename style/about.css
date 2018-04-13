@@ -10,3 +10,20 @@
     font-family: "my_iran_sans";
 
 }
+.center{
+    display: flex;
+    background-color: #f1f1f1;
+}
+.our_signs{
+    display: flex;
+    background-color: #f1f1f1;
+}
+.map{
+    display: flex;
+    background-color: #f1f1f1;
+}
+.caution {
+    direction: rtl;
+    display: flex;
+    background-color: #8b3d2f;
+}
