@@ -46,3 +46,32 @@
     height: auto;
     vertical-align: middle;
 }
+.social_single_icon > img{
+    width: 60%;
+    height: auto;
+}
+.social_single_icon{
+    border-radius: 3px;
+    margin-top: 3.5%;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    text-rendering: auto;
+    -webkit-transition: background-color 0.4s ease;
+    transition: background-color 0.4s ease;
+}
+
+.social_single_icon:hover .social_image_front{
+    display: none;
+}
+.social_single_icon:hover .social_image_back{
+    display: inline;
+}
+.social_image_back{
+    display: none;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
