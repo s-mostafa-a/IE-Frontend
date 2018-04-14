@@ -95,3 +95,37 @@
     background-color: rgba(70, 70, 70, 0.8);
     color: white;
 }
+
+
+.sign_in{
+    font-size: 10px;
+    border: 1px solid dimgray;
+    border-radius: 25px;
+    height: 32px;
+    width: 30%;
+    color: white;
+    -webkit-transition: background-color 0.4s ease;
+    transition: background-color 0.4s ease;
+    background-color: dimgray;
+}
+.sign_up{
+    font-size: 10px;
+    border: 1px solid dimgray;
+    border-radius: 25px;
+    height: 32px;
+    width: 30%;
+    color: dimgray;
+    -webkit-transition: background-color 0.4s ease;
+    transition: background-color 0.4s ease;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.sign_in:hover{
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.8);
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
+}
+.sign_up:hover{
+    -webkit-text-fill-color: dodgerblue;
+    color: dodgerblue;
+    border: 1px solid dodgerblue;
+}
