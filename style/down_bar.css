@@ -1,11 +1,11 @@
 .down_bar {
     margin-top: 1px;
     display: flex;
-    background-color: #f1f1f1;
+    background-color: #c8c8c8;
 }
 
 .down_bar > div {
-    background-color: #f1f1f1;
+    background-color:  #c8c8c8;
     margin: 10px;
     padding: 20px;
     font-size: 30px;
@@ -34,7 +34,7 @@
     height: 10%;
 }
 .social_icons > div {
-    background-color: #f1f1f1;
+    background-color:  #c8c8c8;
     margin: 1px;
     padding: 1px;
     font-size: 30px;
@@ -74,4 +74,7 @@
     top: 0;
     left: 0;
     z-index: 99;
+}
+.colorful_text:hover{
+    color: dodgerblue;
 }
