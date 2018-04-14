@@ -188,22 +188,26 @@
     border-radius: 0 25px 25px 0;
 }
 .inja{
-    position: absolute;
+    position: relative;
     text-align: center;
-    transform: translate(-35%, -650%);
+    background-image: url("../pics/inja.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .centeroid_button{
-    position: absolute;
+    background-image: url("../pics/brands.png");
+    position: relative;
     text-align: center;
-    transform: translate(115%, -700%);
+    background-size: cover;
 }
 .tajrobe{
-    font-size: 10%;
+    font-size: 20px;
     border: 1px solid #6464ff;
     border-radius: 25px;
-    height: 10%;
-    width: 200%;
+    width: 50%;
     color: #ffffff;
     -webkit-transition: background-color 0.4s ease;
     transition: background-color 0.4s ease;
-    background-color: #3232ff;}
+    background-color: #3232ff;
+}
