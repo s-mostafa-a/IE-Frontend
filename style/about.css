@@ -192,3 +192,18 @@
     text-align: center;
     transform: translate(-35%, -650%);
 }
+.centeroid_button{
+    position: absolute;
+    text-align: center;
+    transform: translate(115%, -700%);
+}
+.tajrobe{
+    font-size: 10px;
+    border: 1px solid #6464ff;
+    border-radius: 25px;
+    height: 42px;
+    width: 200%;
+    color: #ffffff;
+    -webkit-transition: background-color 0.4s ease;
+    transition: background-color 0.4s ease;
+    background-color: #3232ff;}
