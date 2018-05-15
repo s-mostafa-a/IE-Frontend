@@ -8,7 +8,7 @@
     <script src="./scripts/poshtibani.js"></script>
 </head>
 
-<body>
+<body onload="loaded()">>
 <link rel="stylesheet" href="./style/about.css"/>
 <div class="nav_bar_top">
     <div>
@@ -308,12 +308,13 @@
                         </div></span>
     </div>
 </div>
-    <div id="poshtibani_before"dir="rtl">
-        <div>
-            <i class="material-icons" style="font-size:34px;">forum</i>
-        </div>
-        <div>
+    <div id="poshtibani_before"dir="rtl" onclick="trans()">
+        <div style="display: flex;">
+            <div>
+                <i class="material-icons" style="font-size:34px;">forum</i>
+            </div>
         پشتیبانی آنلاین
+            <br>
         </div>
     </div>
     <div id="poshtibani_after"dir="rtl">
@@ -321,17 +322,18 @@
         <br>
 
         <div id="info">
-            <div class="flex_grower" id="posthiban_ax">ax</div><!--TODO border-radius: 0 25px 0 0;-->
+            <div class="flex_grower">
+                &ensp;&ensp; <img src="./pics/lock_icon.png" id="posthiban_ax" alt="پشتیبان" width="50" height="50" style="border-radius: 25px;"/>
+            </div><!--TODO border-radius: 0 25px 0 0;-->
             <div id="poshtiban_info">
-                <div>
+                <div id="poshti_name">
                 info
                 </div>
-                <div>
+                <div id="poshti_last">
                     info2
                 </div>
             </div>
-            <div class="flex_grower" id="chat_close"><button style="float: left;border-radius: 25px 0 0 0;">-</button></div>
-
+            <div class="flex_grower" id="chat_close"><button onclick="chat_close()" style="float: left;border-radius: 25px 0 0 0;">-</button></div>
 
 
         </div>
@@ -340,7 +342,7 @@
         </div>
         <div id="writing">
             <input type="text" id="write_chat" placeholder="حرفی بزن ای آشنا..."/>
-            <button onclick="" title="Search" id="send_chat" ><i class="material-icons">&#xe0c9;</i>
+            <button onclick="send_msg()" title="Search" id="send_chat" ><i class="material-icons">&#xe0c9;</i>
             </button>
         </div>
     </div>

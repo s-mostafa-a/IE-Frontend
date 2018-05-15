@@ -29,15 +29,21 @@
     z-index: 99;
     font-size: 14px;
     border: none;
+    display: none;
 }
 #poshtibani_before{
+    color: white;
+    cursor: pointer;
+    border-radius: 25px 25px 0 0;
+    background-color: #3232ff;
     position: fixed;
-    bottom: 0px;
+    bottom: 0;
     right: 30px;
+    padding: 15px;
     z-index: 99;
     font-size: 14px;
     border: none;
-    display: none;
+    height: 25px;
 }
 #info{
     display: flex;
@@ -45,13 +51,13 @@
     border-radius: 25px 25px 0 0;
 }
 #chat_in{
-    display: flex;
     background-color: lightgray;
     width: 100%;
     border-radius: 5px 5px 0 0;
     height: 250px;
     word-wrap    : break-word;
     overflow-wrap: break-word;
+    overflow:scroll;
 }
 #writing{
     display: flex;
@@ -91,4 +97,10 @@
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
     -webkit-transition: background-color 0.4s ease;
     transition: background-color 0.4s ease;
+}
+.my_msg {
+
+}
+.my_pro{
+    width: 10%;
 }
