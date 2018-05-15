@@ -99,8 +99,23 @@
     transition: background-color 0.4s ease;
 }
 .my_msg {
-
+    display: flex;
+}
+.my_text_box{
+    height: 50px;
+    line-height: 50px;
+    background-color: #ffffff;
+    vertical-align: middle;
+    border-radius: 15px;
+}
+.time_shower{
+    height: 50px;
+    background-color: lightgray;
+    vertical-align: sub;
+    font-size: 10px;
 }
 .my_pro{
-    width: 10%;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
 }
