@@ -49,8 +49,9 @@
     background-color: lightgray;
     width: 100%;
     border-radius: 5px 5px 0 0;
-    height: 150px;
-
+    height: 250px;
+    word-wrap    : break-word;
+    overflow-wrap: break-word;
 }
 #writing{
     display: flex;
@@ -60,16 +61,31 @@
 #chat_close{
 }
 #write_chat{
-
+    float: left;
+    height: 32px;
+    width: 80%;
+    text-align: right;
+    line-height: 32px;
+    border: 0;
+    color: #464646;
+    font-size: 13px;
+    text-rendering: auto;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-transition: background-color 0.4s ease;
+    transition: background-color 0.4s ease;
+}
+#send_chat:hover{
+    background-color: #969696;
 }
 #send_chat{
+    background-color: #ffffff;
     float: left;
     height: 32px;
     width: 20%;
     text-align: center;
     line-height: 32px;
-    border: 0;
-    color: #969696;
+    border: 3px solid #ffffff;
+    color: #323232;
     font-size: 16px;
     text-rendering: auto;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
